@@ -1,0 +1,20 @@
+.author {
+  text-align: center;
+  padding: 1rem;
+  div {
+    margin-bottom: 1rem;
+  }
+  &-nickname{
+    color: var(--color);
+    font-size: 1.2rem;
+  }
+  &-introduction {
+    font-size: 0.8rem;
+    color: #999;
+    .account {
+      background-color: #999;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+}

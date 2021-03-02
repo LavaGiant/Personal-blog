@@ -1,0 +1,23 @@
+
+.header {
+  background-color: #fff;
+  padding: 0.4rem;
+  overflow: hidden;
+  height: 3.2rem;
+  border-bottom: 1px solid #ccc;
+  .header-logo {
+    color: var(--color);
+    font-size: 1.4rem;
+    text-align: left;
+    margin-right: 1rem;
+  }
+  .header-txt {
+    font-size: 0.6rem;
+    color: var(--color-text);
+    display: inline-block;
+    padding-left: 0.3rem;
+  }
+  .ant-menu-horizontal {
+    line-height: 2.8rem;
+  }
+}
